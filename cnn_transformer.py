@@ -151,7 +151,7 @@ for fold, (train_idx, val_idx) in enumerate(kfold.split(X_train_val, y_train_val
     history = model.fit(
         X_train_fold, y_train_fold,
         validation_data=(X_val_fold, y_val_fold),
-        epochs=25,
+        epochs=30,
         batch_size=32,
         callbacks=callbacks,
         verbose=0
@@ -195,7 +195,7 @@ callbacks = [
 final_model.fit(
     X_train_val, y_train_val,
     validation_data=(X_test, y_test),
-    epochs=25,
+    epochs=30,
     batch_size=32,
     callbacks=callbacks,
     verbose=0
