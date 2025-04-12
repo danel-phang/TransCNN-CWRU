@@ -1,7 +1,7 @@
 # TransCNN-CWRU: A CNN and Transformer-Based Bearing Fault Classification Model with 100% Accuracy
 
 ## Project Overview
-This project implements a deep learning model combining Convolutional Neural Networks (CNN) and Transformers for classifying the CWRU bearing fault dataset. Validation and testing accuracy reach 100%.
+This project implements a deep learning model combining convolutional neural networks (CNN) and Transformer, classified on the Case Western Reserve University (CWRU) bearing failure dataset. Verification and testing accuracy reaches 100
 
 ## Dataset
 - **Source**: CWRU Bearing Fault Dataset.
