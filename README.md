@@ -1,3 +1,4 @@
+[English](https://github.com/danel-phang/TransCNN-CWRU/blob/main/README-en.md)
 # TransCNN-CWRU: 精度100%的基于CNN和Transformer的轴承故障分类模型
 
 ## 项目简介
