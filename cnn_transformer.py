@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import numpy as np
  
@@ -46,6 +47,7 @@ print('Shape of Input Data =', X.shape)
 print('Shape of Label Y_CNN =', Y_CNN.shape)
 print('Shape of Label Y =', Y.shape)
 
+#%%
 import tensorflow as tf
 from tensorflow.keras import models, layers
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
@@ -214,7 +216,7 @@ test_loss, test_acc = final_model.evaluate(X_test, y_test, verbose=0)
 print(f"\n{'='*40}")
 print(f"最终模型测试集精度：{test_acc*100:.2f}%")
 
-
+#%%
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
