@@ -18,17 +18,19 @@
 ## 结果与可视化
 ### 交叉验证结果
 - 平均验证精度：`99.8%`。
-- 标准偏差：`±0.23%`。
+- 标准偏差：`±0.2%`。
 - 训练和验证的准确率与损失曲线可视化。
 
 ### 测试集结果
-- 测试集精度：`100%`。
+- 测试集精度：`99.9%`。
 
 
-## 安装依赖
+## 使用
+  首先安装依赖
    ```bash
-   pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
+   pip install -r requirements.txt
    ```
-
+  项目后端基于 FastAPI，支持信号模拟发送，双击 run.bat 即可启动服务
+  
 ## 参考
 - 凯斯西储大学（CWRU）轴承故障数据集: [Case Western Reserve University Bearing Data Center](https://engineering.case.edu/bearingdatacenter)

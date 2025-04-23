@@ -1,0 +1,11 @@
+numpy
+requests
+scipy
+pandas
+tensorflow
+fastapi
+uvicorn[standard]
+python-multipart
+matplotlib
+seaborn
+scikit-learn

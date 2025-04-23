@@ -22,10 +22,12 @@ The model integrates CNN and Transformer architectures. It first extracts local 
 ### Test Set Results
 - Test set accuracy: `100%`.
 
-## Installation of Dependencies
+## How to use
+  Install dependencies first
    ```bash
    pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
    ```
+  The backend of the project is built on FastAPI and supports simulated signal transmission. Simply double-click run.bat to start the service.
 
 ## References
 - Case Western Reserve University (CWRU) Bearing Fault Dataset: [Case Western Reserve University Bearing Data Center](https://engineering.case.edu/bearingdatacenter)

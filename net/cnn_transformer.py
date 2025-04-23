@@ -54,7 +54,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from sklearn.model_selection import train_test_split, KFold
 import numpy as np
 
-# CNN需要的输入格式 [样本数, 时间步长, 特征维度]
+# 需要的输入格式 [样本数, 时间步长, 特征维度], 一维信号，时间信息通过数据顺序隐式包含
 Input_1D = X.reshape([-1, 1024, 1])
 X_train_val, X_test, y_train_val, y_test = train_test_split(
     Input_1D, Y_CNN, 
